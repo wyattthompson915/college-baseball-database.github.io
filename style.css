@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.type-button {
+    text-align: center;
+    border-color: #000;
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: max-content;
+    min-width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+th {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.table-container {
+    max-height: 80vh;
+    overflow: auto;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+th:first-child,
+td:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+}
+
+th:first-child {
+    z-index: 3;
+}
+
+#searchBox {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 8px 12px;
+    font-size: 16px;
+}
